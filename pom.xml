@@ -10,6 +10,7 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>SparkSql</module>
+        <module>StructedStreaming</module>
     </modules>
 
     <properties>

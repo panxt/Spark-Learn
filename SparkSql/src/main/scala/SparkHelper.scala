@@ -5,7 +5,7 @@ import org.apache.spark.sql.types.{DataTypes, StructField}
 object SparkHelper {
 
   /* 变量 */
-//  private val nodes = "localhost"
+  //  private val nodes = "localhost"
   private val nodes = "http://172.16.0.20"
 
   //spark session
@@ -20,7 +20,7 @@ object SparkHelper {
     val conf = new SparkConf().setAppName("SparkSQLDemo").setMaster("local[*]")
     conf.set("es.nodes", nodes)
     conf.set("es.port", "9200")
-//    conf.set("es.scroll.size", "100000")
+    //    conf.set("es.scroll.size", "100000")
     conf
   }
 
